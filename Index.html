@@ -4,29 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PETCARE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul> <!--Aqui el icono-->
-                <li><a href="">Home</a></li>
-                <li><a href="">Product</a></li>
-                <li><a href="">Promo</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Conctac</a></li>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__ul">
+                <!--Aqui el icono-->
+                <img class="nav__img" src="Icono.png"> 
+                <li class="nav__li"><a class="nav__a" href="#">Home</a></li>
+                <li class="nav__li"><a class="nav__a" href="#">Product</a></li>
+                <li class="nav__li"><a class="nav__a" href="#">Promo</a></li>
+                <li class="nav__li"><a class="nav__a" href="#">About</a></li>
+                <li class="nav__li"><a class="nav__a" href="#">Conctac</a></li>
+                <li class="nav__li"><i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #ffffff;"></i></li>
                 <!--EL buscador-->
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <article>
-                <!--Falta la imagen de fondo-->
-                <h1>We Care About Your Pet</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus exercitationem eaque, </p>
-                <button>Order Now</button>
+    <main class="main">
+        <!--Home-->
+        <section class="section">
+            <article class="section__home">
+                <h1 class="section__home--Titulo">We Care About Your Pet</h1>
+                <p class="section__home--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                <button class="section__home--button">Order Now</button>
             </article>
         </section>
+        <!--Producto-->
         <section>
             <article>
                 <h1>Title Here</h1>
@@ -40,7 +46,7 @@
                 <article>
                         <!--Imagen-->
                     <h3>Pet Shop</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quam aliquid, nisi placeat veniam nemo repudiandae nobis cupiditate odit deleniti, est adipisci eaque excepturi quod voluptates quia voluptatum, modi ad?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quam aliquid, nisi placeat veniam nemo repudiandae nobis cupiditate odit deleniti, est adipisci eaque cd Dexcepturi quod voluptates quia voluptatum, modi ad?</p>
                 </article>
                 <article>
                     <!--Imagen-->
@@ -50,13 +56,118 @@
                 
             </article>
         </section>
+        <!--Costos-->
         <section>
             <article>
-                fe
+                <h1>Title Here</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat minus voluptates, error unde quidem, nesciunt impedit ipsum itaque ab maiores aperiam distinctio temporibus dolore, modi odio rerum omnis veniam quod.</p>
+            </article>
+            <article>
+                <h2>3.5k</h2>
+                <p>Pet Care</p>
+            </article>
+            <article>
+                <h2>900</h2>
+                <p>Outlet</p>
+            </article>
+            <article>
+                <h2>2k+</h2>
+                <p>Pet Helpinh</p>
             </article>
         </section>
-
+        <!--Title here En azul oscuro-->
+        <section>
+            <article>
+                <h1>Title Here</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quo quasi error, neque adipisci ipsum, atque nisi est similique sapiente officiis voluptatum id repellat. Deleniti temporibus molestias cumque officiis quisquam.</p>
+                <button>Order Now</button>
+            </article>
+        </section>
+        <!--Title here en azul claro-->
+        <section>
+            <article>
+                <h1>Title Here</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ipsa nisi debitis reiciendis commodi qui quaerat nulla ex, quis aperiam? Voluptatem possimus deleniti obcaecati libero dolore eligendi quidem nam! Porro!</p>
+                <button>Order Now</button>
+            </article>
+        </section>
+        <!--Princing-->
+        <section>
+            <article>
+                <h1>Princing</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eum commodi quam velit. Totam dolor molestias, alias inventore quia saepe nisi! Suscipit dignissimos voluptatibus beatae quis animi explicabo repellat ab.</p>
+            </article>
+            <article>
+                <h4>Premiun</h4>
+                <!--Icono-->
+                <p>$19.00</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <button>Order Now</button>
+            </article>
+            <article>
+                <h4>Premium</h4>
+                <!--Icono-->
+                <p>$19.00</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <button>Order Now</button>
+            </article>
+            <article>
+                <h4>Premium</h4>
+                <!--Icono-->
+                <p>$19.00</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <button>Order Now</button>
+            </article>
+        </section>
+        <!--4 icono-->
+        <section>
+            <article>
+                <h1>Title here</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse adipisci veritatis saepe nihil tenetur ullam nobis, exercitationem aliquam aperiam rem voluptatem laboriosam sint in soluta! Id distinctio odio sint?
+                </p>
+            </article>
+            <article>
+                <!--Icono-->
+                <h4>Lorem Ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid suscipit, blanditiis, non, laborum labore corrupti quasi fuga animi ea at necessitatibus eos fugit? Cum exercitationem sequi excepturi quam aut laborum!</p>
+            </article>
+            <article>
+                <!--Icono-->
+                <h4>Lorem Ipsum</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id atque provident consequatur quos dolorem ipsum, quo similique distinctio voluptatum unde porro rerum incidunt suscipit quisquam pariatur tenetur eum harum inventore?</p>
+            </article>
+            <article>
+                <!--Icono-->
+                <h4>lore Ipsum</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut iste illum accusamus perspiciatis deserunt quibusdam ea veritatis, repellat aliquam. Labore quos non rem quam culpa fugiat iste a vero odit.
+                </p>
+            </article>
+            <article>
+                <!--Icono-->
+                <h4>Lorem Ipsum</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aut rem vero ipsum eveniet vel esse soluta ratione voluptatem, veritatis itaque possimus voluptates enim reiciendis alias omnis tempore maiores. Molestiae.</p>
+            </article>
+        </section>
+        <!--Casi del Footer-->
+        <section>
+            <article>
+                <!--Imagen-->
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.Vivamus lacinia odio vitae vestibulum vestibulum
+                </h2>
+                <h1>Dr.jenny</h1>
+            </article>
+        </section>
     </main>
+    <footer>
+
+
+
+
+    </footer>
     
 </body>
 </html>
