@@ -276,3 +276,63 @@ color: var(--color-blanco);
     width: 250px;
     padding: 10px;
 }
+/* El title azul claro */
+.section__section--title2{
+    height: 900px;
+    background-color: var(--color-fondo-defecto);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.section__section--img--here1{
+    display: block;
+    position: absolute;
+    top: 3300px;
+    left: 100px;
+    transform: rotate(25deg);
+}
+.section__section--img--here2{
+display: block;
+position: absolute;
+left: 1100px;
+top: 3200px;
+}
+.section__section--img--here3{
+    display: block;
+position: absolute;
+left: 150vh;
+top: 610vh;
+}
+.section__section--img--here4{
+    display: block;
+    position: absolute;
+    top: 526vh;
+    left: 1100px;   
+}
+.section__section--img--here5{
+    display: block;
+    position: absolute;
+    top: 626vh;
+    right: 180vh;   
+}
+.section__section--img--here6{
+    height: 400px;
+}
+.section__section--titile-here--titulo{
+    font-size: 40px;
+color: var(--color-blanco);
+}
+.section__section--titile-here--parrafo{
+    font-size: 22px;
+    color: var(--color-blanco);
+}
+.section__section--titile-here--button{
+    border: 1px solid var(--coolor-button);
+    color: var(--color-blanco);
+    font-size: 20px;
+    background-color: var(--coolor-button);
+    border-radius: 20px;
+    width: 250px;
+    padding: 10px;
+}
