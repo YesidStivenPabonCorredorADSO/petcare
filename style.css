@@ -177,8 +177,7 @@ margin-top: 130px;
 /* Costos */
 .section__section--costos{
     background-image: url(greg.png);
-    width: 100%;
-    min-height: 115vh;
+    min-height: 125vh;
     padding: 100px 20px;
     background-size: cover;
     background-position:center ;
@@ -219,7 +218,7 @@ margin-top: 130px;
     align-items: center;
     border: 10px solid var(--color-blanco);
     border-radius: 150px;
-    padding: 90px;
+    padding: 60px;
 }
 .section__section--costo--colum--titulo{
 font-size: 46px;
@@ -232,14 +231,14 @@ color: var(--color-blanco);
 }
 /* Title here azul oscuro */
 .section__section--title{
-  background-color: var(--color-oscuro);
-  min-height: 60vh;
-  padding: 100px 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  position: relative;
+background-color: var(--color-oscuro);
+min-height: 60vh;
+padding: 100px 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+position: relative;
 }
 .section__section--row{
     display: flex;
@@ -299,51 +298,88 @@ color: var(--color-blanco);
     background-color: var(--color-fondo-defecto);
 }
 .order{
-  order: 2;
+order: 2;
 }
 /* Pirncing */
 .section__section--princing{
-  min-height: 60vh;
-  padding: 100px 20px;
-  background-color: var(--color-oscuro);
+min-height: 60vh;
+padding: 100px 20px;
+background-color: var(--color-oscuro);
 }
 .section__home--row{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
 }
 .section__section--row--border{
-  background-color:var(--color-blanco);
-  border-radius: 5px;
-  width: 300px;
-  height: 350px;
+background-color:var(--color-blanco);
+border-radius: 5px;
+width: 300px;
+height: 350px;
 }
 .section__section--icon--azul{
-  color: var(--color-fondo-defecto);
+color: var(--color-fondo-defecto);
 }
 .section__section--button--arreglado{
-  font-size: 20px;
-  width: 200px;
-  height: 50px;
+font-size: 20px;
+width: 200px;
+height: 50px;
 }
 /* penultimo */
 .background__two--edit{
-  min-height: 30vh;
-  padding: 100px 20px;
+min-height: 30vh;
+padding: 100px 20px;
 }
 .section__section--grid{
-  display: grid;
-  grid-template-columns: repeat(2,400px);
-  grid-template-rows: repeat(2,300px);
-  justify-content: center;
+display: grid;
+grid-template-columns: repeat(2,400px);
+grid-template-rows: repeat(2,300px);
+justify-content: center;
 }
-.section__section--row{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.section__section--colum{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 .section__section--row--img{
-  height: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+.section__section--titulo--colum{
+    display: flex;
+    flex-direction: column;
+}
+/* Casi del footer*/
+.section__section--costos--cambio-img{
+background-image: url(casi.png);
+min-height: 145vh;
+padding: 100px 20px;
+justify-content: center;
+align-items: center;
+}
+.section__producto--Titulo--cambios{
+    display: flex;
+    justify-content: space-between;
+}
+/* Footer */
+.footer__home{
+    background-color: var(--color-footer);
+    height: 50vh;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section__home--colum{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+.section__section--row--parrafo--16{
+    font-size: 22px;
 }
