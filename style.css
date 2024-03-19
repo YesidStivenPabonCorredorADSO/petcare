@@ -389,3 +389,8 @@ align-items: center;
 .section__section--row--parrafo--16{
     font-size: 22px;
 }
+@media screen and  (min-width :(769px)){
+  .section{
+    width: 120vh;
+  }
+}
