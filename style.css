@@ -18,7 +18,7 @@
     z-index: 1000;
     top: 0;
     position: fixed;
-    max-width: auto;
+    /* max-width: auto; */
     width: 100%;
     justify-content: space-evenly;
     background-color:#527ebc ;
@@ -119,6 +119,7 @@ color:var(--color-blanco);
     position: absolute;
     left: 0px;
     z-index: 1;
+
 }
 .section__section--img-2{
 display: block;
@@ -163,8 +164,8 @@ margin-top: 130px;
     z-index: 1;
 }
 .producto__img{
-    width: 280px;
-    z-index: 1;
+    width: 85%;
+    /* z-index: 1; */
 }
 .section__section--producto--titulo{
     color: var(--color-blanco);
@@ -269,9 +270,6 @@ display: block;
 position: absolute;
 right: 199px;
 top: 452px;
-}
-.section__section--img--title4--edti{
-left: 300px;
 }
 .section__section--row--titulo{
     font-size:clamp(20px, 5vw, 40px);
@@ -389,8 +387,102 @@ align-items: center;
 .section__section--row--parrafo--16{
     font-size: 22px;
 }
-@media screen and  (min-width :(769px)){
+/* Medi de portatil */
+@media screen and (max-width:1024px) {
+  /* Esta parte es de home */
   .section{
-    width: 120vh;
+    height: 70vh;
+  }
+   /* Esta parte del producto */
+  .section__section--img-6--R{
+    top: 70vh;
+    z-index: 1;
+  }
+  .section__section--img-2{
+    top: 79vh;
+  }
+  .section__section--img-5{
+    top: 79vh;
+    z-index: 1;
+  }
+  .section__section--img-4{
+    top: 170vh;
+    right: 4vh;
+  }
+  /* Esta parte de los costos */
+  .section__section--img--costos{
+    top: 180vh;
+  }
+  /* Esta parte de es title here */
+  .section__section--img-title1{
+    left: 74px;
+    transform: rotate(20dg);
+    top: 45px;
+  }
+  .section__section--img-title2{
+    top: 60px;
+  }
+  .section__section--img--title3{
+    top: 56vh;
+    left: 85px;
+  }
+  .section__section--img--title4{
+    right: 18vh;
+  }
+  .section__section--img--title4--edti{
+    top: 65vh;
+    right: 13vh;
+    z-index: 1;
   }
 }
+/* Medi de la tablet  */
+@media screen and (max-width:768px) {
+  /* La parte del nav */
+  /* La parte del home */
+  .header{
+    width:768px;
+  }
+  .section__home--Titulo{
+    font-size: 40px;
+  }
+  .section__home--parrafo{
+    font-size: 19px;
+  }
+  .section__home--button{
+    font-size: 20px;
+    height: 6vw;
+  }
+  .section{
+    height: 70vh;
+    width: 100vw;
+  }
+  /* Con el producto */
+  .section__section--img-1{
+    width: 266px;
+  }
+  .section__section--img-3{
+    width: 226px;
+  }
+  .section__section--img-4{
+    top: ;
+  }
+  .section__section--img-5{
+   right: 90px;
+  }
+}
+
+/* 
+@media screen and (min-width :768px){
+  .section{
+    width: 125vh;
+  }
+  .section__section{
+    width: 103vh;
+  }
+  .producto__img{
+    width: 150px;
+  }
+  .section__section--img-1{
+    width: 105px;
+  }
+} */
