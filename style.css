@@ -218,7 +218,7 @@ margin-top: 130px;
     align-items: center;
     border: 10px solid var(--color-blanco);
     border-radius: 150px;
-    padding: 60px;
+    padding: 90px;
 }
 .section__section--costo--colum--titulo{
 font-size: 46px;
@@ -249,25 +249,29 @@ position: relative;
     display: block;
     position: absolute;
     top: 0vh;
-    left: 100px;
+    left: 170px;
+    transform: rotate(20deg);
 }
 .section__section--img-title2{
     display: block;
     position: absolute;
     top: 0vh;
-    left: 165vh;
+    right: 117px;
 }
 .section__section--img--title3{
     display: block;
     position: absolute;
-    top: 0vh;
+    top: 466px;
     left: 15vh;
 }
 .section__section--img--title4{
 display: block;
 position: absolute;
-right: 100px;
-top: 0;
+right: 199px;
+top: 452px;
+}
+.section__section--img--title4--edti{
+left: 300px;
 }
 .section__section--row--titulo{
     font-size:clamp(20px, 5vw, 40px);
@@ -362,7 +366,8 @@ align-items: center;
 }
 .section__producto--Titulo--cambios{
     display: flex;
-    justify-content: space-between;
+    margin-top: 550px;
+
 }
 /* Footer */
 .footer__home{
