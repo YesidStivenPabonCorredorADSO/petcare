@@ -464,10 +464,13 @@ align-items: center;
     width: 226px;
   }
   .section__section--img-4{
-    top: ;
+    top: 182vw;
   }
   .section__section--img-5{
    right: 90px;
+  }
+  .section__section{
+    height: 111vw;
   }
 }
 
