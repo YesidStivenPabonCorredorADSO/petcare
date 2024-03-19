@@ -346,11 +346,13 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+gap: 28px;
 }
 .section__section--row--img{
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 80px;
+    gap: 100px;
 }
 .section__section--titulo--colum{
     display: flex;
@@ -367,7 +369,6 @@ align-items: center;
 .section__producto--Titulo--cambios{
     display: flex;
     margin-top: 550px;
-
 }
 /* Footer */
 .footer__home{
