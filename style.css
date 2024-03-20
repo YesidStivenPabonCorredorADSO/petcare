@@ -481,6 +481,9 @@ color: var(--color-blanco);
 /* Medi de la tablet  */
 @media screen and (max-width:768px) {
   /* La parte del nav */
+  .nav{
+    font-size: 20px;
+  }
   /* La parte del home */
   .header{
     width:768px;
