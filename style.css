@@ -455,7 +455,7 @@ color: var(--color-blanco);
     top: 45px;
   }
   .section__section--img-title2{
-    top: 60px;
+    top: 75px;
   }
   .section__section--img--title3{
     top: 56vh;
@@ -471,7 +471,7 @@ color: var(--color-blanco);
   }
   /*patitas suaves */
   .section__section--img{
-    top: 498vw;
+    top: 515vw;
   }
   .section__section--img--cuadro2{
     display: block;
@@ -496,7 +496,7 @@ color: var(--color-blanco);
 
   /* La parte del home */
   .header{
-    width:768px;
+    width:785px;
   }
   .section__home--Titulo{
     font-size: 40px;
@@ -510,7 +510,7 @@ color: var(--color-blanco);
   }
   .section{
     height: 70vh;
-    width: 100vw;
+    width: 785px;
   }
   /* Con el producto */
   .section__section--img-1{
@@ -518,30 +518,34 @@ color: var(--color-blanco);
   }
   .section__section--img-3{
     width: 226px;
+    left: 73vw;
   }
   .section__section--img-4{
-    top: 174vw;
+    top: 191vw;
   }
   .section__section--img-5{
   right: 90px;
   }
   .section__section{
-    height: 116vw;
+    width: 785px;
   }
   /* Ahora costos */
   .section__section--costos{
     background-size: cover;
+    width: 785px;
   }
   .section__section--costo--colum{
     padding: 50px;
     margin-top: 23vw;
   }
   .section__section--img--costos{
-    top: 185vw;
+    top: 201vw;
+    left: 75px;
   }
   /* Title Here */
   .section__section--title{
     height: 68vh;
+    width: 785px;
   }
   .section__section--img-title3{
     height: 260px;
@@ -554,16 +558,19 @@ color: var(--color-blanco);
     top: 53px;
   }
   .section__section--img--title3{
-    top: 55vw;
+    top: 62vw;
   }
   .section__section--img--title4{
-    top: 49vw;
+    top: 54vw;
     right: 89px;
   }
   .section__section--img--title4--edti{
-    top: 61vw;
+    top: 71vw;
   }
   /* Pirncing */
+  .section__section--princing{
+    width: 785px;
+  }
   .section__home--parrafo{
     font-size: 22px;
   }
@@ -580,18 +587,27 @@ color: var(--color-blanco);
   }
   .section__section--img{
     width: 213px;
-    top: 646vw;
+    top: 750px;
   }
   .section__section--img--cuadro2{
     display: block;
     position: absolute;
-    right: 20px;
-    top: 547vw;
+    left: 91vw;
+    top: 21vw;
   }
   .section__producto--Titulo--cambios{
     margin-top: 61vw;
   }
+  /* 4 icon */
+  .background__two--edit{
+    width: 785px;
+    display: block;
+    position: relative;
+  }
   /* Fotter */
+  .footer__home{
+    width: 785px;
+  }
   .section__section--row--parrafo{
     font-size: 18px;
   }
@@ -599,7 +615,7 @@ color: var(--color-blanco);
 @media screen and (max-width:425px){
   /* Header */
   .header{
-    width: 609px;
+    width: 790px;
   }
   .nav{
     font-size: 16px;
@@ -612,11 +628,16 @@ color: var(--color-blanco);
   }
   /* home */
   .section{
-    width: 144vw;
+    width: 186vw;
   }
   .section__section{
-    width: 144vw;
-    height: 138vw;
+    width: 186vw;
+    height: 248vw;
+    gap: 30px;
+  }
+  .section__section--producto{
+    display: flex;
+    flex-direction: column;
   }
   .section__section--img-1{
     width: 178px;
@@ -626,14 +647,14 @@ color: var(--color-blanco);
   }
   .section__section--img-3{
     width: 178px;
-    left: 102vw;
+    left: 145vw;
   }
   .section__section--img-4{
-    top: 244vw;
-    left: 117vw;
+    top: 371vw;
+    left: 137vw;
   }
   .section__section--img-5{
-    left: 118vw;
+    left: 160vw;
   }
   .section__producto--parrafo{
     margin-top: 10px;
@@ -650,34 +671,42 @@ color: var(--color-blanco);
   }
   /* Costos */
   .section__section--costos{
-    width: 144vw;
+    width: 186vw;
+  }
+  .section__section--costo{
+    display: flex;
+    flex-direction: column;
   }
   .section__section--costo--colum{
     padding: 40px;
   }
   .section__section--img--costos{
-    top: 262vw;
+    top: 388vw;
     left: 56px;
   }
   /* Title here */
   .section__section--title{
-    width: 144vw;
+    width: 187vw;
   }
   .section__section--img-title1{
     left: 11px;
+  }
+  .section__section--img-title2{
+    top: 66px;
   }
   .section__section--img--title3{
     top: 99vw;
     left: 38px;
   }
-
   .section__section--img--title4--edti{
     top: 111vw;
   }
   .section__section--img--title4{
-    top: 10px;
+    top: 100vw;
   }
-
+  .section__section--img--title4--edti{
+    top: 127vw;
+  }
 }
 /* 
 @media screen and (min-width :768px){
