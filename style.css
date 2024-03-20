@@ -220,6 +220,7 @@ margin-top: 130px;
     border: 10px solid var(--color-blanco);
     border-radius: 150px;
     padding: 90px;
+    margin-top: 13vw;
 }
 .section__section--costo--colum--titulo{
 font-size: 46px;
@@ -229,6 +230,25 @@ color: var(--color-blanco);
 .section__section--costo--colum--parrafo{
     font-size: 16px;
     color: var(--color-blanco);
+}
+.section__section--img{
+  display: block;
+  position: absolute;
+  top: 382vw;
+  right: 0;
+  z-index: 1;
+}
+.section__section--img--cuadro1{
+  display: block;
+  position: absolute;
+  left: 1;
+}
+.section__section--img--cuadro2{
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 350vw;
+
 }
 /* Title here azul oscuro */
 .section__section--title{
@@ -322,6 +342,11 @@ height: 350px;
 }
 .section__section--icon--azul{
 color: var(--color-fondo-defecto);
+font-size: 22px;
+}
+.section__section--icon--azul--ta{
+  color: var(--color-fondo-defecto);
+  font-size: 25px;
 }
 .section__section--button--arreglado{
 font-size: 20px;
@@ -366,7 +391,11 @@ align-items: center;
 }
 .section__producto--Titulo--cambios{
     display: flex;
-    margin-top: 550px;
+    margin-top: 194px;
+}
+.section__producto--Titulo--cambios {
+font-size: 40px;
+color: var(--color-blanco);
 }
 /* Footer */
 .footer__home{
@@ -434,6 +463,20 @@ align-items: center;
     right: 13vh;
     z-index: 1;
   }
+  /*patitas suaves */
+  .section__section--img{
+    top: 498vw;
+  }
+  .section__section--img--cuadro2{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 455vw;
+  }
+  /* Casi el footeer */
+  .section__producto--Titulo--cambios{
+    margin-top: 48vw;
+  }
 }
 /* Medi de la tablet  */
 @media screen and (max-width:768px) {
@@ -464,13 +507,74 @@ align-items: center;
     width: 226px;
   }
   .section__section--img-4{
-    top: 182vw;
+    top: 170vw;
   }
   .section__section--img-5{
-   right: 90px;
+  right: 90px;
   }
   .section__section{
     height: 111vw;
+  }
+  /* Ahora costos */
+  .section__section--costos{
+    background-size: cover;
+  }
+  .section__section--costo--colum{
+    padding: 50px;
+    margin-top: 23vw;
+  }
+  /* Title Here */
+  .section__section--img-title3{
+    height: 260px;
+  }
+  .section__section--img-title1{
+    left: 50px;
+    top:9px;
+  }
+  .section__section--img-title2{
+    top: 13px;
+  }
+  .section__section--img--title3{
+    top: 49vw;
+  }
+  .section__section--img--title4{
+    top: 46vw;
+    right: 89px;
+  }
+  .section__section--img--title4--edti{
+    top: 5px;
+  }
+  /* Pirncing */
+  .section__home--parrafo{
+    font-size: 22px;
+  }
+  .section__section--row--border{
+    width: 212px;
+    height: 371px;
+  }
+  .section__section--costo--colum--parrafo{
+    font-size: 17px
+  }
+  .section__section--icon--azul--ta{
+    font-size: 25px;
+    color: var(--color-fondo-defecto);
+  }
+  .section__section--img{
+    width: 213px;
+    top: 625vw;
+  }
+  .section__section--img--cuadro2{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 547vw;
+  }
+  .section__producto--Titulo--cambios{
+    margin-top: 61vw;
+  }
+  /* Fotter */
+  .section__section--row--parrafo{
+    font-size: 18px;
   }
 }
 
