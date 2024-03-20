@@ -133,7 +133,6 @@ top: 120vh;
     position: absolute;  
     right: 0;
     top: 115vh;
-    margin-bottom: 100px;
     z-index: 0;
     /* transform: rotate(5deg); */
 }
@@ -422,6 +421,13 @@ color: var(--color-blanco);
   .section{
     height: 70vh;
   }
+  /* nav */
+  .nav__a{
+    font-size: 23px;
+  }
+  .nav__img{
+    margin-right: 192px;
+  }
    /* Esta parte del producto */
   .section__section--img-6--R{
     top: 70vh;
@@ -484,6 +490,10 @@ color: var(--color-blanco);
   .nav{
     font-size: 20px;
   }
+  .nav__img{
+    margin-right: 100px;
+  }
+
   /* La parte del home */
   .header{
     width:768px;
@@ -510,13 +520,13 @@ color: var(--color-blanco);
     width: 226px;
   }
   .section__section--img-4{
-    top: 170vw;
+    top: 174vw;
   }
   .section__section--img-5{
   right: 90px;
   }
   .section__section{
-    height: 111vw;
+    height: 116vw;
   }
   /* Ahora costos */
   .section__section--costos{
@@ -526,26 +536,32 @@ color: var(--color-blanco);
     padding: 50px;
     margin-top: 23vw;
   }
+  .section__section--img--costos{
+    top: 185vw;
+  }
   /* Title Here */
+  .section__section--title{
+    height: 68vh;
+  }
   .section__section--img-title3{
     height: 260px;
   }
   .section__section--img-title1{
     left: 50px;
-    top:9px;
+    top:  50px;
   }
   .section__section--img-title2{
-    top: 13px;
+    top: 53px;
   }
   .section__section--img--title3{
-    top: 49vw;
+    top: 55vw;
   }
   .section__section--img--title4{
-    top: 46vw;
+    top: 49vw;
     right: 89px;
   }
   .section__section--img--title4--edti{
-    top: 5px;
+    top: 61vw;
   }
   /* Pirncing */
   .section__home--parrafo{
@@ -564,7 +580,7 @@ color: var(--color-blanco);
   }
   .section__section--img{
     width: 213px;
-    top: 625vw;
+    top: 646vw;
   }
   .section__section--img--cuadro2{
     display: block;
@@ -580,7 +596,89 @@ color: var(--color-blanco);
     font-size: 18px;
   }
 }
+@media screen and (max-width:425px){
+  /* Header */
+  .header{
+    width: 609px;
+  }
+  .nav{
+    font-size: 16px;
+  }
+  .nav__img{
+    margin-right: 63px;
+  }
+  .nav__li{
+    margin: 5px;
+  }
+  /* home */
+  .section{
+    width: 144vw;
+  }
+  .section__section{
+    width: 144vw;
+    height: 138vw;
+  }
+  .section__section--img-1{
+    width: 178px;
+  }
+  .section__section--img-2{
+    left: 21px;
+  }
+  .section__section--img-3{
+    width: 178px;
+    left: 102vw;
+  }
+  .section__section--img-4{
+    top: 244vw;
+    left: 117vw;
+  }
+  .section__section--img-5{
+    left: 118vw;
+  }
+  .section__producto--parrafo{
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .producto__img {
+    width: 160px;
+  }
+  .section__section--producto--parrafo{
+    font-size: 16px;
+  }
+  .section__section--producto{
+    margin-top: 9px;
+  }
+  /* Costos */
+  .section__section--costos{
+    width: 144vw;
+  }
+  .section__section--costo--colum{
+    padding: 40px;
+  }
+  .section__section--img--costos{
+    top: 262vw;
+    left: 56px;
+  }
+  /* Title here */
+  .section__section--title{
+    width: 144vw;
+  }
+  .section__section--img-title1{
+    left: 11px;
+  }
+  .section__section--img--title3{
+    top: 99vw;
+    left: 38px;
+  }
 
+  .section__section--img--title4--edti{
+    top: 111vw;
+  }
+  .section__section--img--title4{
+    top: 10px;
+  }
+
+}
 /* 
 @media screen and (min-width :768px){
   .section{
