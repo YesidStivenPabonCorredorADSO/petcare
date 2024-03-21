@@ -647,7 +647,7 @@ color: var(--color-blanco);
     width: 190vw;
   }
   .section__section{
-    width: 187vw;
+    width: 191vw;
     height: 248vw;
     gap: 30px;
   }
@@ -687,7 +687,7 @@ color: var(--color-blanco);
   }
   /* Costos */
   .section__section--costos{
-    width: 187vw;
+    width: 191vw;
   }
   .section__section--costo{
     display: flex;
@@ -702,7 +702,7 @@ color: var(--color-blanco);
   }
   /* Title here */
   .section__section--title{
-    width: 187vw;
+    width: 191vw;
   }
   .section__section--img-title1{
     left: 11px;
