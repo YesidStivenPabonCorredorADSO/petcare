@@ -644,10 +644,10 @@ color: var(--color-blanco);
   }
   /* home */
   .section{
-    width: 190vw;
+    width: 791px;
   }
   .section__section{
-    width: 191vw;
+    width: 791px;
     height: 248vw;
     gap: 30px;
   }
@@ -687,7 +687,7 @@ color: var(--color-blanco);
   }
   /* Costos */
   .section__section--costos{
-    width: 191vw;
+    width: 791px;
   }
   .section__section--costo{
     display: flex;
@@ -702,7 +702,7 @@ color: var(--color-blanco);
   }
   /* Title here */
   .section__section--title{
-    width: 191vw;
+    width: 791px;
   }
   .section__section--img-title1{
     left: 11px;
